@@ -38,21 +38,30 @@ JavaScripts can be put in the body and in the head section of an HTML page.
                                        
 ***************************************************************************************************************
  IntroductionJavaScript01.html
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Introduction to JavaScript</title>
-</head>
-<body>
-	<script>
-		alert(" Introduction to JavaScript");
-		document.write("JavaScript is a lightweight, interpreted programming language with object-oriented capabilities that allows you to build");
-	</script>
-</body>
-
-</html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="ISO-8859-1">
+	<title>Introduction to JavaScript</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			alert(" Introduction to JavaScript");
+			document.write("JavaScript is a lightweight, interpreted programming language with object-oriented capabilities that allows you to build");
+			document.write("<br>");
+			var name="Thapa";
+			document.write(name);
+			var a=10;
+			var b=20;
+			var c= a+b;
+			document.write("<br>");
+			document.write("c-> "+c);
+			
+			
+			</script>
+	</body>
+	
+	</html>
  
  *********************************************************************************************************************************
  #2.JavaScript Tutorials in Hindi Part 2: Variable in JavaScript & Identifiers in JavaScript in Hindi
