@@ -1,0 +1,69 @@
+JavaScript
+****************************************************************************************************************
+#1.JavaScript Tutorials in Hindi Part 1: Introduction to JavaScript in Hindi
+1.Java Script is high level language.
+2.JavaScript is intrepreated langauage means it won't create any file in beetween while we do run as like java.
+3.JavaScript is OOPs oriented.
+4.JavaScript is un-typed language.
+5.JavaScript add functionality.
+6.validation check
+7.JavaScript is use only at client side .
+8.web-development contains three thing 1.front end->JavaScript
+                                       2.back-end
+                                       3.database
+9.JavaScript is case sentative.
+10. JavaScript we can use internal or extrenal.
+***************************************************************************************************************
+JavaScript is a lightweight, interpreted programming language with object-oriented capabilities that allows you to build interactivity into otherwise static HTML pages.
+JavaScript to add functionality,validate input, communicate with web servers.JavaScript is a client side scripting language.
+Javascript is a case sensitive.JavaScript inserted into HTML pages, can be executed by all modern web browsers.
+JavaScripts in HTML must be inserted between script tags.
+JavaScripts can be put in the body and in the head section of an HTML page.
+
+ Why Study JavaScript?
+ JavaScript is one of the 3 languages all web developers must learn:
+
+    1. HTML to define the content of web pages
+
+    2. CSS to specify the layout of web pages
+
+    3. JavaScript to program the behavior of web pages
+
+ This tutorial is about JavaScript, and how JavaScript works with HTML and CSS.
+
+ JavaScript and Java are completely different languages, both in concept and design.
+
+ JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.
+ ECMA-262 is the official name of the standard. ECMAScript is the official name of the language.
+                                       
+***************************************************************************************************************
+ IntroductionJavaScript01.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Introduction to JavaScript</title>
+</head>
+<body>
+	<script>
+		alert(" Introduction to JavaScript");
+		document.write("JavaScript is a lightweight, interpreted programming language with object-oriented capabilities that allows you to build");
+	</script>
+</body>
+
+</html>
+ 
+ *********************************************************************************************************************************
+ #2.JavaScript Tutorials in Hindi Part 2: Variable in JavaScript & Identifiers in JavaScript in Hindi
+ *********************************************************************************************************************************
+ 
+ *********************************************************************************************************************************
+ *********************************************************************************************************************************
+ *********************************************************************************************************************************
+ 
+ 
+ 
+ 
+ 
+
