@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>jQuery Focus event and Blur events </title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+<h2>focus() VS blur()</h2>
+<input type="text" name="" id="textbox">
+<span id="showdata">Welcome</span>
+<span id="showdataforblur">Takecare</span>
+
+<script>
+$(document).ready(function(){
+	$('span').css('display','none');
+	$('#textbox').focus(function() {
+		$('#showdata').css('display','inline').fadeOut(4000);
+	});
+	
+	$('#textbox').blur(function() {
+		$('#showdataforblur').css('display','inline').fadeOut(4000);
+	});
+});
+
+</script>
+</body>
+</html>
