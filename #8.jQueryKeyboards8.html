@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Jquery Keyword</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<form>
+		<label>Username:</label> <input type="text" name="MamtaYadav">
+
+	</form>
+	<script>
+		$(document).ready(function() {
+			/*  $('input').keypress(function() {
+			$(this).css("backgroundColor","yellow");
+			}); */
+
+			/* $('input').keydown(function(){
+				$(this).css("backgroundColor","blue");
+			}); */
+
+			$('input').keyup(function() {
+				$(this).css("backgroundColor", "red");
+			});
+
+		});
+	</script>
+</body>
+</html>
